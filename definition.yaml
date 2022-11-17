@@ -1,0 +1,36 @@
+openapi: '3.0.2'
+info:
+  title: API Test
+  description: |
+    This API is to Test Github pages as host 
+  version: '1.0'
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
+  /users:
+    get:
+      summary: Return all users
+      description: Return all of the users with status active
+      parameters: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: integer
+        '400':
+          description: NOT FOUND
+    post:
+      description: 'Create a new User'
+      parameters: []
+      responses:
+        '200':
+          description: OK
