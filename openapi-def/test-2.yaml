@@ -1,7 +1,7 @@
 openapi: 3.0.0
 servers:
   # Added by API Auto Mocking Plugin
-  - description: SwaggerHub API Auto Mocking
+  - description: SwaggerHub API Auto Mocking Test-2
     url: https://virtserver.swaggerhub.com/JONFRGAR/Prueba/1.0.0
 info:
   description: This is a simple API
@@ -12,12 +12,7 @@ info:
   license:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
-tags:
-  - name: admins
-    description: Secured Admin-only calls
-  - name: developers
-    description: Operations available to regular 
-paths:
+paths: 
   /inventory:
     get:
       tags:
