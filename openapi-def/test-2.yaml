@@ -3,6 +3,8 @@ servers:
   # Added by API Auto Mocking Plugin
   - description: SwaggerHub API Auto Mocking Test-2
     url: https://virtserver.swaggerhub.com/JONFRGAR/Prueba/1.0.0
+  - description: SwaggerHub API test 1
+    url: https://virtserver.swaggerhub.com/JONFRGAR/Prueba/1.0.1
 info:
   description: This is a simple API
   version: "1.0.0"
